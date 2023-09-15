@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #0C1821;
+    width: 100%;
+}
+
+body h1{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 30%;
+    margin: 87px auto;
+}
+.formulaire h1{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width:50%;
+    margin: 28px auto;
+}
+
+p{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width:90%;
+    margin: 0 auto;
+}
+
+.formulaire{
+    max-width: 632px;
+    height: 844px;
+    border-radius: 10px;
+    background: #324A5F;
+}
+
+.formulaire h1{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+form input{
+    width: 537.146px;
+    height: 83.35px;
+    margin: 20px 47px 10px;
+}
+
+form textarea {
+    width: 537.146px;
+    height: 289.508px;
+    margin: 0 47px;
+}
+
+form button{
+    width: 224px;
+    height: 48px;
+    border-radius: 4px;
+    background: #0C1821;
+    color: white;
+    cursor: pointer;
+}
+
+img{
+    max-width: 564.63px;
+    height: 719px;
+}
+
+.contact {
+    display: flex;
+    gap: 33px;
+    width: 90%;
+    margin: 60px auto;
+
+}
