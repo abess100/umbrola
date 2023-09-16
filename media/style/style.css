@@ -40,7 +40,7 @@ section{
 }
 
 .bloc1 div{
-    width:50%;
+    width:100%;
 }
 h1{
     color: #FFF;
@@ -81,7 +81,7 @@ main>aside{
     height: 600px;
 }
 table{
-    width:395px;
+    max-width:395px;
 }
 table, tr,td{
     border-collapse:collapse ;
@@ -95,13 +95,13 @@ aside table tr td p{
     margin: auto;
 }
 table tr:nth-child(1){
-    width: 384px;
+    max-width: 384px;
     height: 61px;
     text-align: center;
     background: #324A5F;    
 }
 table tr:nth-child(2), tr:nth-child(3), tr:nth-child(5){
-    width: 384px;
+    max-width: 384px;
     height: 241.583px;
 }
 aside img{
@@ -241,28 +241,69 @@ table tr:nth-child(3){
         width: 90%;
         margin: auto;
     }
-    aside{
-        display: none;
-    }
+   
     body{
         overflow-x: hidden;
     }
 }
 
 @media screen and (max-width:915px) {
-    section{
-        width: 100%;
+    aside{ 
+        display: none;
     }
-    .bloc1 , .bloc{
+
+}
+@media screen and (max-width:800px) {
+    article {
         display: flex;
         flex-direction: column;
-        width: 100%;
     }
-   
-    img, div{
-        width: 100%;
+    .image img{
+        max-width: 655px;
+        height: 318px;
     }
+
     h1{
+        width: 655px;
+        color: #FFF;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    p{
+        color: #FFF;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 648px;
+    }
+
+    .bloc{
+        width: 100%;
+    }
+
+    video{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:713px) {
+    section{
+    padding: 0px;
+    margin: 0px;
+ }
+    .bloc1 {
+        width: 100%;
+    }
+
+    .image img {
+        width:100%;
+    }
+
+    h1,p{
         width: 100%;
     }
 }

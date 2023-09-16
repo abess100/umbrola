@@ -9,80 +9,131 @@ body{
     width: 100%;
 }
 
-body h1{
+h1 {
     color: #FFF;
-    font-size: 48px;
+    font-family: Inter;
+    font-size: 30px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    width: 30%;
-    margin: 87px auto;
-}
-.formulaire h1{
-    color: #FFF;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    width:50%;
-    margin: 28px auto;
+    width: 209px;
+    margin: 114px auto 22px;
 }
 
-p{
+body>p{
     color: #FFF;
+    font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width:90%;
+    width: 90%;
     margin: 0 auto;
 }
 
 .formulaire{
-    max-width: 632px;
-    height: 844px;
-    border-radius: 10px;
+    width: 339px;
+    height: 580px;
     background: #324A5F;
+    margin: 0 auto;
+    border-radius: 10px;
 }
-
-.formulaire h1{
+.contact h2{
     color: #FFF;
-    font-size: 48px;
+    font-family: Inter;
+    font-size: 30px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 900;
     line-height: normal;
+    margin: 25px 50PX;
+}
+input{
+    width: 274px;
+    height: 45px;
+    margin: 0 33px;
 }
 
-form input{
-    width: 537.146px;
-    height: 83.35px;
-    margin: 20px 47px 10px;
+textarea{
+    width: 274px;
+    height: 261px;
+    margin: 0 33px;
 }
 
-form textarea {
-    width: 537.146px;
-    height: 289.508px;
-    margin: 0 47px;
-}
-
-form button{
-    width: 224px;
+button{
+    width: 164px;
     height: 48px;
-    border-radius: 4px;
-    background: #0C1821;
+    background-color:rgba(12, 24, 33, 1);
     color: white;
-    cursor: pointer;
+    margin:37px 86px;
+}
+div img{
+    width: 339px;
+    height: 421px;
+    margin:22px 70px 100px;
 }
 
-img{
-    max-width: 564.63px;
-    height: 719px;
+@media screen and (min-width:600px) {
+    h1{
+        color: #FFF;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        width: 279px;
+    }
+    
+    body>p{
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    .contract{
+        width: 100%;
+    }
+
+    .formulaire{
+        width: 80%; 
+    }
+
+    .formulaire input{
+        width: 85%;
+    }
+
+    .formilaire textarea{
+        width: 85%;
+        cols:50;
+    }
+
+    ul button{
+        width: 164px;
+        height: 48px;
+        margin: 37px 150px;
+    }
+
+    div{
+        width: 80%;
+        margin: 30px auto;
+    }
+    
+    div img{
+        width: 100%;
+        margin: 0px;
+    }
+
 }
 
-.contact {
-    display: flex;
-    gap: 33px;
-    width: 90%;
-    margin: 60px auto;
+  
+@media screen and (min-width:1000px) {
+    .contact{
+        display: flex;
+        gap: 33px;
+        width: 90%;
+         margin: 60px auto;
+    }
 
+    
+UL button{
+    margin:10px 200px;
+}
 }
